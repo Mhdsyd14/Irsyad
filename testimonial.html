@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="navbar">
+      <nav>
+        <a href="#" class="logo"><img src="Aset/Logo Mi.png" alt="Logo" /></a>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projek.html">Projek</a></li>
+          <li><a href="testimonial.html">Testimonial</a></li>
+        </ul>
+        <div class="right">
+          <a class="cta" href="form.html"><button>Kontak</button></a>
+        </div>
+        <div class="hamburger">
+          <button onclick="Hamburger()">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </nav>
+    </div>
+    <div id="hamburger-btn"></div>
+    <!-- end navbar -->
+    <div class="MyTestimonial">
+      <h1>My testimonial</h1>
+      <h3>Rating By Star</h3>
+    </div>
+    <div class="rating">
+      <button onclick="CardTampilkan()">All</button>
+      <button onclick="Saring(1)">1<i class="fa-solid fa-star"></i></button>
+      <button onclick="Saring(2)">2<i class="fa-solid fa-star"></i></button>
+      <button onclick="Saring(3)">3<i class="fa-solid fa-star"></i></button>
+      <button onclick="Saring(4)">4<i class="fa-solid fa-star"></i></button>
+      <button onclick="Saring(5)">5<i class="fa-solid fa-star"></i></button>
+    </div>
+    <section class="testimonials" id="testimonial">
+      <!-- <div class="testimonial">
+        <img src="Aset/IMG_6801.JPG" alt="" class="gambarTestimonial" />
+        <p class="quote">Muhamamd Irsyad</p>
+        <p class="author">Author</p>
+        <p class="author">5<i class="fa-solid fa-star"></i></p>
+      </div> -->
+    </section>
+    <script src="main.js"></script>
+    <script src="ajax.js"></script>
+  </body>
+</html>
