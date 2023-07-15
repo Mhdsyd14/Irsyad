@@ -548,7 +548,9 @@ div h1 {
     flex-direction: column;
   }
   .formulirAnak {
-    margin-left: 20px;
+    width: 90%;
+    margin-right: 45px;
+    margin: auto;
   }
   .form-group {
     width: 100%;
